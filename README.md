@@ -57,6 +57,10 @@ No calculation or workbook defect has been silently fixed in this repository.
 
 ## Download the project files
 
+[Download the complete project, including full original video](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/download/v0.1.0/29-Excel_Project_Full_Recovery.zip)
+
+This losslessly compressed ZIP includes the unchanged 37,527,684-byte MP4. Extract the ZIP, then open `video/Excel_Sales_Profit_Demo.mp4` to play it. No transcoding or video fragments are used.
+
 [Download the project ZIP](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/download/v0.1.0/Excel_Project_Files_Without_Video.zip) | [View release](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/tag/v0.1.0)
 
 The ZIP contains both original workbooks, all five screenshots, exact extracted Power Query source, architecture, validation notes and a file manifest. The original workbooks are unchanged. Repository folder uploads did not complete, so these files are delivered through the verified Release ZIP rather than claimed as individual repository paths.
@@ -75,7 +79,7 @@ docs/VALIDATION.md                         # Validation notes
 docs/FILE_MANIFEST.json                     # Original file hashes
 ```
 
-The ZIP's README is the reviewed preparation snapshot. This repository README is the current publication status. The full original video remains pending upload and is not inside the ZIP. The repository also contains the [extracted query source](power-query/14-Section1.original.m).
+The ZIP's README is the reviewed preparation snapshot. This repository README is the current publication status. The smaller ZIP above excludes the video; use the complete ZIP for the full original demo. The repository also contains the [extracted query source](power-query/14-Section1.original.m).
 
 ## Open and refresh
 
@@ -96,7 +100,7 @@ The ZIP's README is the reviewed preparation snapshot. This repository README is
 
 ![Slicers and timelines](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/download/v0.1.0/28-slicers-timelines.jpg)
 
-The original 47.8-second MP4 is 37,527,684 bytes. It is preserved unchanged, but is **not uploaded to this release**. The available upload route could not transfer a file over 25 MiB. No shortened replacement is presented as the original. The full video must still be added through a supported upload route.
+The original 47.8-second MP4 is 37,527,684 bytes. It is included unchanged in the complete project ZIP linked above. Lossless ZIP compression allows the full package to transfer within the upload limit. Download and extract it for local playback; inline video playback is not available. Video SHA-256: `6b6d99cbc35d4759295373848f59d675b80368884ce4aaad307aeb7a5f7668f2`.
 
 ## Data and use
 
