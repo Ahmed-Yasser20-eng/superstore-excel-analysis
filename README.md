@@ -4,7 +4,7 @@ An Excel analysis project connecting raw sales transactions, Power Query prepara
 
 **Tools:** Microsoft Excel, Power Query, Power Pivot, PivotTables, PivotCharts, slicers and timelines.
 
-![Sales and profit dashboard](images/dashboard-overview.jpg)
+![Sales and profit dashboard](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/download/v0.1.0/24-dashboard-overview.jpg)
 
 ## Business questions
 
@@ -15,7 +15,7 @@ An Excel analysis project connecting raw sales transactions, Power Query prepara
 
 ## Project architecture
 
-![Project architecture](docs/architecture.png)
+![Project architecture](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/download/v0.1.0/23-architecture.png)
 
 ```mermaid
 flowchart TD
@@ -28,11 +28,11 @@ flowchart TD
     A --> B --> C --> D --> E --> F
 ```
 
-This is the evidenced processing flow, not a claim that every relationship or filter has been validated. See the [architecture guide](docs/ARCHITECTURE.md) for the file responsibilities and refresh path.
+This is the evidenced processing flow, not a claim that every relationship or filter has been validated. The architecture guide is included at `docs/ARCHITECTURE.md` inside the downloadable project ZIP.
 
 ## Technical work
 
-The workbook contains three Power Query queries. `Orders_details` removes Row ID, converts dates, renames columns, removes duplicates and blank rows, replaces missing postal codes, trims text and assigns numeric types. `Sales_Rep` reads the People sheet. `Returns` reads the Returns sheet and removes duplicates. The exact extracted queries are preserved in [Section1.original.m](power-query/Section1.original.m).
+The workbook contains three Power Query queries. `Orders_details` removes Row ID, converts dates, renames columns, removes duplicates and blank rows, replaces missing postal codes, trims text and assigns numeric types. `Sales_Rep` reads the People sheet. `Returns` reads the Returns sheet and removes duplicates. The exact extracted queries are preserved in [Section1.original.m](power-query/14-Section1.original.m).
 
 The report uses an embedded Excel data model, 12 PivotTables, charts, slicers and timelines. These let the user move between customer, product, region, category and time views. The supplied video visibly demonstrates changing filters and corresponding dashboard views; it does not by itself establish that every connection or calculation is correct.
 
@@ -55,24 +55,27 @@ The screenshot preserves the original labels and values, including Total Order 9
 
 No calculation or workbook defect has been silently fixed in this repository.
 
-## Files
+## Download the project files
+
+[Download the project ZIP](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/download/v0.1.0/Excel_Project_Files_Without_Video.zip) | [View release](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/tag/v0.1.0)
+
+The ZIP contains both original workbooks, all five screenshots, exact extracted Power Query source, architecture, validation notes and a file manifest. The original workbooks are unchanged. Repository folder uploads did not complete, so these files are delivered through the verified Release ZIP rather than claimed as individual repository paths.
+
+Inside the ZIP:
 
 ```text
-superstore-excel-analysis/
-├── README.md
-├── data/raw/Sample - Superstore 2019.xls   # Original supplied source
-├── workbook/Superstore_Sales_Profit.xlsx  # Original supplied dashboard
-├── power-query/Section1.original.m        # Extracted exact query source
-├── images/                               # Five supplied screenshots
-├── docs/                                 # Architecture, validation, file manifest
-└── video/                                # Full original demo in repository package
+README.md                                  # Reviewed preparation snapshot
+data/raw/Sample - Superstore 2019.xls       # Original source
+workbook/Superstore_Sales_Profit.xlsx       # Original dashboard
+power-query/Section1.original.m            # Extracted exact query source
+images/                                    # All five original screenshots
+docs/ARCHITECTURE.md                        # Architecture guide
+docs/architecture.png                      # Architecture diagram
+docs/VALIDATION.md                         # Validation notes
+docs/FILE_MANIFEST.json                     # Original file hashes
 ```
 
-- [Open/download the dashboard workbook](workbook/Superstore_Sales_Profit.xlsx)
-- [Open/download the source workbook](data/raw/Sample%20-%20Superstore%202019.xls)
-- [Power Query source](power-query/Section1.original.m)
-- [Validation notes](docs/VALIDATION.md)
-- [Full file manifest](docs/FILE_MANIFEST.json)
+The ZIP's README is the reviewed preparation snapshot. This repository README is the current publication status. The full original video remains pending upload and is not inside the ZIP. The repository also contains the [extracted query source](power-query/14-Section1.original.m).
 
 ## Open and refresh
 
@@ -85,16 +88,16 @@ superstore-excel-analysis/
 
 ## Screenshots and demo
 
-![KPI cards](images/kpi-cards.jpg)
+![KPI cards](https://github.com/user-attachments/assets/41802fdf-c742-4efa-9bd0-a7a49e4f9656)
 
-![Category and segment profit](images/category-segment-profit.jpg)
+![Category and segment profit](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/download/v0.1.0/26-category-segment-profit.jpg)
 
-![Profit by year and quarter](images/profit-trend.jpg)
+![Profit by year and quarter](https://github.com/user-attachments/assets/5c9385ad-62c0-454a-9a5d-adff6ddea0a8)
 
-![Slicers and timelines](images/slicers-timelines.jpg)
+![Slicers and timelines](https://github.com/Ahmed-Yasser20-eng/superstore-excel-analysis/releases/download/v0.1.0/28-slicers-timelines.jpg)
 
-The original 47.8-second MP4 is 37,527,684 bytes. It is preserved in the project package. GitHub browser repository uploads allow 25 MiB per file, so the full original will be attached to a GitHub Release after publication approval. Its actual verified release link will be added here after upload. It will not be silently omitted or split into fragments viewers cannot play.
+The original 47.8-second MP4 is 37,527,684 bytes. It is preserved unchanged, but is **not uploaded to this release**. The available upload route could not transfer a file over 25 MiB. No shortened replacement is presented as the original. The full video must still be added through a supported upload route.
 
 ## Data and use
 
-This project is presented as portfolio analysis, not client employment or proven commercial impact. Source provenance and redistribution permission must be confirmed before the source workbook or cached customer/order data is published. No blanket third-party data license is granted by this README.
+This project is presented as portfolio analysis, not client employment or proven commercial impact. The project owner confirmed the supplied data is training data and approved this public portfolio publication. No blanket third-party data license is granted by this README.
